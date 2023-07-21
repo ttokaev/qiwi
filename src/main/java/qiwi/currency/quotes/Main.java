@@ -16,14 +16,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        if (args.length != 2 || !args[0].startsWith("--code=") || !args[1].startsWith("--date=")) {
+        if (args.length != 3 || !args[1].startsWith("--code=") || !args[2].startsWith("--date=")) {
             System.out.println("Неверные аргументы командной строки.");
-            System.out.println("Использование: currency_rates --code=USD --date=2022-10-08");
+            System.out.println("Использование: currency_rates --code=??? --date=yyyy-mm-dd");
             return;
         }
 
-        String currencyCode = args[0].substring(7);
-        String date = args[1].substring(7);
+        String currencyCode = args[1].substring(7);
+        String date = args[2].substring(7);
 
 
         try {
@@ -50,7 +50,7 @@ public class Main {
                 Arrays.stream(valCurs.getValutes())
                         .filter(valute -> valute.getCharCode().equals(currencyCode))
                         .findFirst()
-                        .ifPresent(valute -> System.out.printf("%s (%s): %s%n", valute.getCharCode(), valute.getName(), valute.getValue())
+                        .ifPresent(valute -> System.out.printf("%s (%s): %s", valute.getCharCode(), valute.getName(), valute.getValue())
                 );
 
             } else {
