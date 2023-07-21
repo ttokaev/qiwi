@@ -9,12 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e03836ae-e1b7-4170-a3be-80633ce589d0" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/qiwi_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/qiwi_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e03836ae-e1b7-4170-a3be-80633ce589d0" name="Changes" comment="small fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/qiwi_jar/qiwi.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/qiwi/currency/quotes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qiwi/currency/quotes/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +57,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="JAR Application.qiwi.jar">
+  <component name="RunManager" selected="Application.qiwi.currency.quotes.Main">
     <configuration name="ааа" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="qiwi.currency.quotes.ааа" />
       <module name="qiwi" />
@@ -75,7 +71,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="qiwi.currency.quotes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="qiwi.currency.quotes.Main" />
       <module name="qiwi" />
       <extension name="coverage">
@@ -95,14 +93,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.qiwi.currency.quotes.Main" />
       <item itemvalue="Application.ааа" />
       <item itemvalue="JAR Application.qiwi.jar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.qiwi.currency.quotes.Main" />
         <item itemvalue="JAR Application.qiwi.jar" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ааа" />
       </list>
     </recent_temporary>
@@ -116,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689855812447</updated>
       <workItem from="1689855815305" duration="6569000" />
-      <workItem from="1689862479435" duration="12466000" />
+      <workItem from="1689862479435" duration="17696000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689866017702</created>
@@ -125,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689866017702</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="small fix">
+      <created>1689926508376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689926508376</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +161,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="small fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="small fix" />
   </component>
 </project>
